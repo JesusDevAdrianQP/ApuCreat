@@ -2,24 +2,24 @@
   "name": "apucreat",
   "version": "1.0.0",
   "description": "Alojamiento GIT _ ApuCreat",
-  "main": "index.js",
+  "main": "postcss.config.js",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^8.2.0",
+    "tailwindcss": "^1.9.6"
+  },
+  "devDependencies": {},
   "scripts": {
-    "build": "postcss css/tailwind-base.css -o public/css/style.css"
+    "build": "postcss css/tailwind-base.css -o public/css/style.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JesusAdrianQp/ApuCreat.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JesusAdrianQp/ApuCreat/issues"
   },
-  "homepage": "https://github.com/JesusAdrianQp/ApuCreat#readme",
-  "dependencies": {
-    "autoprefixer": "^9.8.6",
-    "postcss-cli": "^8.2.0",
-    "tailwindcss": "^1.9.6"
-  }
+  "homepage": "https://github.com/JesusAdrianQp/ApuCreat#readme"
 }
