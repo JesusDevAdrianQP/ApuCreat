@@ -3,11 +3,11 @@
 /*----------------------------------------PORTADA DE LANDING PAGE------------------------------------*/
 /*--------------------------------------------------------------------------------------------------*/
 /*Cover*/
-#cover-responsive{background-image: url(../img/x.png);}
+#cover-responsive{background-image: url(../img/portada.jpg);}
 
 /*Responsive personalizado*/
 @media screen and (max-width:768px){
-    #cover-responsive{background-image: url(../img/x.png);}
+    #cover-responsive{background-image: url(../img/portada.jpg);}
 }
 
 /*Animacion del cover*/
@@ -44,3 +44,12 @@
         100%{ margin-top: 0;}
     }
 }
+
+.overlay{
+    width: 100%;
+    background:linear-gradient(rgba(255,255,255,0.55), rgba(255,255,255,0.55));
+    position: absolute;
+    
+}
+
+
