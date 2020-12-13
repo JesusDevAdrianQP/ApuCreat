@@ -3,7 +3,7 @@
 /*----------------------------------------PORTADA DE LANDING PAGE------------------------------------*/
 /*--------------------------------------------------------------------------------------------------*/
 /*Cover*/
-#cover-responsive{background-image: url(../img/portada2.jpg);}
+#cover-responsive{background-image: url(../img/portada3.jpg);}
 
 /*Responsive personalizado*/
 @media screen and (max-width:768px){
